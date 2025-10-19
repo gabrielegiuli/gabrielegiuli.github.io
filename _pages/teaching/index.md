@@ -16,7 +16,7 @@ Here you’ll find materials and notes from the courses I’ve taught.
 
 A continuation of the Quantum Information Processing sequence, this course explores how the principles of quantum computing are realized in physical systems — from superconducting qubits to trapped ions and photonic platforms. We also discuss error correction, decoherence, and scalable architectures.
 
-[Lecture Notes →](/teaching/qip_ii/ps1)  
+[Lecture Notes →](/teaching/qip_ii/index)  
 [Course Website →](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=194244&semkez=2025W&ansicht=LEHRVERANSTALTUNGEN&lang=en)  
 
 ---
