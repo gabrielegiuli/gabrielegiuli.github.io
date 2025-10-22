@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -34,12 +34,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/math/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-gabrielegiuli-github-io-is-now-online",
+      },{id: "news-gabrielegiuli-github-io-is-now-online",
           title: 'gabrielegiuli.github.io is now online!',
           description: "",
           section: "News",},{id: "projects-project-1",
