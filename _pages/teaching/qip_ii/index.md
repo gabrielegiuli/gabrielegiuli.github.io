@@ -6,6 +6,10 @@ description: Materials for the Quantum Information Processing II course (Fall 20
 nav_exclude: true
 ---
 
+<div class="warning-card">
+  <strong>Warning:</strong> The material released here is not part of the official course material. Errors and deviations from the course material might occur.
+</div>
+
 ## TA Session Notes
 
 Below are the current note pages available:

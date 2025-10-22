@@ -1,0 +1,71 @@
+/* === Warning Card (works in light and dark mode) === */
+
+.warning-card {
+  border: 1px solid var(--warning-border);
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+  padding: 1rem 1.25rem;
+  border-radius: 0.6rem;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.warning-card::before {
+  content: "⚠️";
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+/* Light mode */
+:root {
+  --warning-bg: #fff8e1;
+  --warning-border: #facc15;
+  --warning-text: #7c2d12;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --warning-bg: #2d2205;
+  --warning-border: #fbbf24;
+  --warning-text: #fcd34d;
+}
+
+/* === Info Card (works in light and dark mode) === */
+
+.info-card {
+  border: 1px solid var(--info-border);
+  background-color: var(--info-bg);
+  color: var(--info-text);
+  padding: 1rem 1.25rem;
+  border-radius: 0.6rem;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.info-card::before {
+  content: "ℹ️";
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+/* Light mode */
+:root {
+  --info-bg: #e0f2fe;      /* light blue */
+  --info-border: #3b82f6;  /* blue */
+  --info-text: #1e3a8a;    /* dark blue */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --info-bg: #1e3a8a33;    /* semi-transparent dark blue */
+  --info-border: #3b82f6;  /* blue */
+  --info-text: #93c5fd;    /* light blue */
+}

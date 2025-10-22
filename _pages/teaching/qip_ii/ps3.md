@@ -40,11 +40,16 @@ $$
 $$
 
 We can write the state diagram as
-![alt text](image2.png)
+
+![alt text](/assets/img/teaching/qip_ii/image2.png)
+
+*<small>Image reproduced from [R. Oswald, Characterization and control of a cryogenic ion trap apparatus and laser systems for quantum computing](https://www.research-collection.ethz.ch/handle/20.500.11850/603723)</small>*
 
 ## The Hyperfine Structure
 Let's now go one step deeper. Let's consider one additional degree of freedom, the nuclear spin $I$. This gives rise to the *hyperfine structure*. Consider the $5^2S_{1/2}$ level of $^{85}\text{Rb}$, experimentally we can measure its energy levels
-![alt text](image-1.png)
+
+![alt text](/assets/img/teaching/qip_ii/image-1.png)
+
 We see that the levels are further split. To undertand what is going on here, we need to have a look at the hamiltonian
 
 $$

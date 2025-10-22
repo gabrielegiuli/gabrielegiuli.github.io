@@ -8,10 +8,15 @@ We have seen how we describe the state of a _qubit_ on the _Bloch Sphere_. In ad
 
 ## Atom-Light Interaction
 Consider the electronic structure of an atom (ion). Here, we will consider $^{40}\text{Ca}^+$ electronic structure.
-To build a qubit, we can (wisely) select any two levels and call them the ground $|0\rangle$ and excited $|1\rangle$ states accordingly. We will neglect all the other states, and the model of our atom's internal degree of freedom becomes of a qubit. We assume that the energy levels are split by $\omega_{eg}$, thus the hamiltonian becomes
+
+![alt text](/assets/img/teaching/qip_ii/image2.png)
+
+*<small>Image reproduced from [R. Oswald, Characterization and control of a cryogenic ion trap apparatus and laser systems for quantum computing](https://www.research-collection.ethz.ch/handle/20.500.11850/603723)</small>*
+
+To build a qubit, we can (wisely) select any two levels and call them the ground $\vert0\rangle$ and excited $\vert1\rangle$ states accordingly. We will neglect all the other states, and the model of our atom's internal degree of freedom becomes of a qubit. We assume that the energy levels are split by $\omega_{eg}$, thus the hamiltonian becomes
 
 $$
-H = \frac{\hbar\omega_{eg}}{2}|1\rangle\langle 1| - \frac{\hbar\omega_{eg}}{2}|0\rangle\langle 0| = \frac{\hbar\omega_{eg}}{2}\sigma_z.
+H = \frac{\hbar\omega_{eg}}{2}\vert1\rangle\langle 1\vert - \frac{\hbar\omega_{eg}}{2}\vert0\rangle\langle 0\vert = \frac{\hbar\omega_{eg}}{2}\sigma_z.
 $$
 
 We immediately see that both $\vert 0\rangle$ and $\vert 1\rangle$ are eigenstates of this Hamiltonian. To manipulate the state, we need to _interact_ with the ion. You will need to trust me (or take quantum optics), to see that the Hamiltonain for a dipole-allowed transition subject to an Electric field becomes
