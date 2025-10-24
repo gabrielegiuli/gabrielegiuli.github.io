@@ -18,6 +18,7 @@ Below are the current note pages available:
 2. [Atoms (Ions) as Qubits →](/teaching/qip_ii/ps2)
 3. [Atomic Physics and Dynamical Decoupling →](/teaching/qip_ii/ps3)
 4. [Non-Unitary Processes →](/teaching/qip_ii/ps4)
+5. [Laser Cooling and Trapping →](/teaching/qip_ii/ps5)
 
 *(More notes will be added throughout the semester.)*
 
@@ -25,7 +26,15 @@ Below are the current note pages available:
 
 ## Jupyter Notebooks
 
-1. [Driven Two-Level System](/teaching/qip_ii/ipynb1)
+1. [Driven Two-Level System →](/teaching/qip_ii/ipynb1)
+
+---
+
+## Quantum Optics Notes
+
+Here are some notes I co-written with [Yuto Motohashi](https://yutomotohashi.github.io) and [Lukas Kostal](https://www.kostallukas.com/). You might find them useful to dig deeper into some derivations that we encoutner in the classes. Note that they are still a work in progress.
+
+[Quantum Optics Notes [PDF] →](/assets/pdf/Quantum_Optics.pdf)
 
 ---
 
